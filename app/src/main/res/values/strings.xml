@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CleanCarpetGame</string>
+    <string name="start_game">Start game</string>
+    <string name="exit_the_application">Exit the application</string>
+    <string name="clean_carpet">Clean Carpet</string>
+    <string name="please_click_exit_again">Please click button again to exit</string>
+</resources>

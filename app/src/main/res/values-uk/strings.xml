@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestTaskGuessNumber</string>
+    <string name="start_game">Почати гру </string>
+    <string name="exit_the_application">Вийти з додатку</string>
+    <string name="please_click_exit_again">Натисніть кнопку ще раз, щоб вийти</string>
+</resources>
