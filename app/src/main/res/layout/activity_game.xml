@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.example.cleancarpetgame.game.viewmodel.GameViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:scaleType="fitXY" />
+
+        <dev.skymansandy.scratchcardlayout.ui.ScratchCardLayout
+            android:id="@+id/scratch_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scratchDrawable="@drawable/dirt"
+            app:scratchEnabled="true"
+            android:layout_margin="@dimen/margin_20"
+            app:scratchRevealFullAtPercent="99"
+            app:scratchWidth="@dimen/scratch_size">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/carpet_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+        </dev.skymansandy.scratchcardlayout.ui.ScratchCardLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

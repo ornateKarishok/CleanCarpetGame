@@ -17,4 +17,6 @@
     <dimen name="padding_50">50dp</dimen>
 
     <dimen name="size_0">0dp</dimen>
+    <dimen name="size_25">25dp</dimen>
+    <dimen name="scratch_size">40dp</dimen>
 </resources>

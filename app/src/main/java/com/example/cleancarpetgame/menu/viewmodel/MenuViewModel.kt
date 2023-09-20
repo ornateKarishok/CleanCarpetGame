@@ -3,7 +3,7 @@ package com.example.cleancarpetgame.menu.viewmodel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.cleancarpetgame.GameActivity
+import com.example.cleancarpetgame.game.ui.GameActivity
 import com.example.cleancarpetgame.menu.ui.MenuActivity
 
 class MenuViewModel : ViewModel() {

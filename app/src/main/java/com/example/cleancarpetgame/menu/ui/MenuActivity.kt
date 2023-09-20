@@ -8,13 +8,13 @@ import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.cleancarpetgame.GameActivity
+import com.example.cleancarpetgame.game.ui.GameActivity
 import com.example.cleancarpetgame.R
 import com.example.cleancarpetgame.databinding.ActivityMenuBinding
 import com.example.cleancarpetgame.menu.viewmodel.MenuViewModel
 import kotlin.system.exitProcess
 
-class MenuActivity : AppCompatActivity() {
+class MenuActivity : AppCompatActivity()  {
     private lateinit var binding: ActivityMenuBinding
     private var vmMenu: MenuViewModel = MenuViewModel()
     private var isExitPressedOnce = false

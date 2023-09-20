@@ -4,4 +4,5 @@
     <string name="exit_the_application">Exit the application</string>
     <string name="clean_carpet">Clean Carpet</string>
     <string name="please_click_exit_again">Please click button again to exit</string>
+    <string name="nice_job">Nice Job!</string>
 </resources>

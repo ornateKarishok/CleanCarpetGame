@@ -4,4 +4,6 @@
     <string name="start_game">Почати гру </string>
     <string name="exit_the_application">Вийти з додатку</string>
     <string name="please_click_exit_again">Натисніть кнопку ще раз, щоб вийти</string>
+    <string name="clean_carpet">Почисти килим</string>
+    <string name="nice_job">Молодець!</string>
 </resources>
